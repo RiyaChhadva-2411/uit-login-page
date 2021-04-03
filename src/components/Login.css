@@ -13,7 +13,7 @@
 }
 
 .Login__heading{
-    padding-top: 150px;
+    padding-top: 200px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 36px;
@@ -101,10 +101,11 @@ textarea:focus + span, textarea:not(:placeholder-shown) + span {
     .Login__heading{
         padding-top: 50px;
         font-size: 27px;
-        margin-left: 20px;
+        margin-left: 38%;
     }
     .form-control{
         margin-bottom: 15px;
+        width: 100%;
     }
     .Login__span{
         font-size: 14px;
@@ -112,6 +113,8 @@ textarea:focus + span, textarea:not(:placeholder-shown) + span {
     .Login__Form{
         padding-left: 0px;
         padding-top: 35px;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     .Login__SaveButton{
         width: 100px;
@@ -122,11 +125,14 @@ textarea:focus + span, textarea:not(:placeholder-shown) + span {
     }
     .Login__form-submit{
         margin-top: 0px;
-        margin-left: 19%;
-        margin-bottom: 50px;
+        margin-left: 35%;
+        margin-bottom: 30vh;
     }
     .Login__svg-column{
         height: 50vh;
+    }
+    .Login__dmrow{
+        margin-bottom: 10px;
     }
 }
 /*For small and medium devices*/
