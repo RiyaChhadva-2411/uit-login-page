@@ -1,11 +1,12 @@
 .Login__image{
-    width: 600px;
+    width: 800px;
     height: 600px;
     margin-top: 70px;
-    margin-left: 40px;
+    margin-left: -20px;
 }
 .Login__column{
-    background-color: #f6dfeb;
+    /* background-color: #f6dfeb; */
+    background-color: #ffefb2;
 }
 .Login__Form{
     margin-left: 30%;
@@ -17,7 +18,7 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 36px;
-    color: #763857;
+    color: #31326f;
     margin-left: 40%;
 }
 .form-control{
@@ -26,7 +27,7 @@
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
-    color:#763857;
+    color:#31326f;
     background-color: #fff;
     background-clip: padding-box;
     border: 1px solid #CADEEF;
@@ -38,20 +39,20 @@
     margin-bottom: 40px;
 }
 .Login__SubmitButton{
-    background-color: #763857;
+    background-color: #31326f;
     color: #ffffff;
     width: 150px;
     padding: 10px 10px 10px 10px ;
     border-radius: 20px;
 }
-.Login__SaveButton{
+/* .Login__SaveButton{
     background-color: #763857;
     color: #ffffff;
     width: 150px;
     padding: 10px 10px 10px 10px ;
     border-radius: 20px;
     margin-right: 50px;
-}
+} */
 .Login__SubmitButton :hover{
     color: #ffffff;
 }
@@ -67,7 +68,7 @@
     left:0;
     line-height: 1.5;
     font-size: 16px;
-    color:#763857;
+    color:#31326f;
     transition: 0.2s;
     transition-timing-function: ease;
     transition-timing-function: cubic-bezier(0.25,0.1,0.25,1);
@@ -76,15 +77,15 @@
 input:focus + span, input:not(:placeholder-shown)+ span{
     opacity:1;
     transform: scale(0.75) translateY(-80%) translateX(-18px);
-    background-color:  #f6dfeb;
-    color: #763857;
+    background-color:  #ffefb2;
+    color: #31326f;
     padding: .175rem 0.5rem;
 }
 textarea:focus + span, textarea:not(:placeholder-shown) + span {
     opacity:1;
     transform: scale(0.8) translateY(-80%) translateX(-1px);
-    background-color:  #f6dfeb;
-    color: #763857;
+    background-color:  #ffefb2;
+    color: #31326f;
     padding: .175rem 0.5rem;
 }
 .Login__svg-column{

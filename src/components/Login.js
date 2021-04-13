@@ -1,6 +1,6 @@
 import React from 'react';
 import './Login.css';
-import login from "../svg/login.jpg";
+import LoginSvgNew from "../svg/loginNew.png";
 class Login extends React.Component{
     render(){
         return(
@@ -8,7 +8,7 @@ class Login extends React.Component{
                 <div className="row">
                     <div className="col-md-6 col-sm-12 col-xs-12 col-lg-6 Login__svg-column">
                             <div className="Login__svg">
-                                <img src={login} alt="login-svg" className="Login__image" />
+                                <img src={LoginSvgNew} alt="login-svg" className="Login__image" />
                             </div>
                     </div>
 
